@@ -1,0 +1,14 @@
+{% extends "base.html"%}
+
+
+{% block content %}
+    <form action="/user/register" methd="POST">
+        昵称：<input type="text" name="username">
+        <br>
+        密码：<input type="text" name="password">
+        <br>
+        城市：<input type="text" name="city">
+        <br>
+        <input type="submit">
+    </form>
+{% endblock %}
